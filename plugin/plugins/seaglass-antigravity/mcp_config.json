@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "seaglass": {
+      "serverUrl": "https://api.seaglassai.com/mcp"
+    }
+  }
+}
