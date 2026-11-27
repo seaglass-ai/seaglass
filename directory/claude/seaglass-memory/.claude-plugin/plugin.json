@@ -1,0 +1,21 @@
+{
+  "name": "seaglass-memory",
+  "version": "0.9.1",
+  "displayName": "Seaglass Memory",
+  "description": "Recall what you and your team decided before, and save what you state, from the Seaglass memory you sign in to.",
+  "author": {
+    "name": "Seaglass",
+    "url": "https://seaglassai.com"
+  },
+  "homepage": "https://seaglassai.com",
+  "privacyPolicyUrl": "https://seaglassai.com/privacy",
+  "repository": "https://github.com/seaglass-ai/seaglass",
+  "license": "Apache-2.0",
+  "keywords": [
+    "memory",
+    "knowledge",
+    "context",
+    "wiki",
+    "teams"
+  ]
+}

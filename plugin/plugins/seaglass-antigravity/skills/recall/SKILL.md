@@ -26,15 +26,19 @@ If `$ARGUMENTS` is empty, work from what the conversation shows:
 ## How to render
 
 Don't dump whole wiki pages. Summarize each source in two to four bullets, and
-cite page names so the user can drill in.
+cite each page on its own line as core rule 15 does: 🔍, the `path` its hit
+carries, then its title linked to its `url`, so the user can open it.
 
 ```
-**Project Example**: Q3 product launch led by Ada Example (PM) and Bo Example
-(eng). Status: design review last week, two-week buffer requested.
+🔍 Example Corp → [Project Example](https://…)
+Q3 product launch led by Ada Example (PM) and Bo
+Example (eng). Status: design review last week, two-week buffer requested.
 Cross-links: Ada Example, Q3 launch, Example Corp migration.
 
-**Ada Example**: Project Example PM (formerly CTO at Example Corp). Recent: pushed back on
-Q3 budget allocation, missed the April 8 sync. Async-review preference.
+🔍 Example Corp → [Ada Example](https://…)
+Project Example PM (formerly CTO at Example Corp).
+Recent: pushed back on Q3 budget allocation, missed the April 8 sync.
+Async-review preference.
 ```
 
 Go one level into cross-links, then ask the user where to go next rather than
